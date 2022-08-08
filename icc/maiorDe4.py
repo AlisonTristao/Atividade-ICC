@@ -9,7 +9,6 @@ def maiorDe4(a, b, c, d):
     else:
         return d
         
-
 n1 = int(input())
 n2 = int(input())
 n3 = int(input())

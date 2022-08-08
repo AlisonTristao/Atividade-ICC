@@ -1,3 +1,5 @@
+# isso aqui n foi eu q fiz 
+
 class SimpleLinearRegression:
     def __init__(self):
         self.coef_ = None

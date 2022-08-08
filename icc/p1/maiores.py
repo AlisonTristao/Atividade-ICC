@@ -1,18 +1,18 @@
 def calculaMaior(a, b, c, d, e):
 
-    #lista com os numeros
+    # lista com os numeros
     lista = [a, b, c, d, e]
 
-    #recebe o maior
+    # recebe o maior
     max1 = max(lista)
 
-    #remove ele
+    # remove ele
     lista.remove(max1)
 
-    #calcula o segundo maior
+    # calcula o segundo maior
     max2 = max(lista)
 
-    #printa os maiores
+    # printa os maiores
     print(max1)
     print(max2)
 
