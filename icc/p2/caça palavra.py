@@ -1,12 +1,25 @@
 def procura_palavra(palavra: str):
     # Aqui vai o seu código
     
-    tabelaC = ""
-    for i in tabela:
-        for j in i:
-            tabelaC += j
+    #guarda as linhas na vertical
+    vertical = ""
+    
+    #guarda as linhas na horizontal
+    horizontal = ""
+    
+    #junta tudo em uma linha so horizontal e vertical
+    for i in range(len(tabela)):
+        for j in range(len(tabela[i])):
+            horizontal += tabela[i][j]
+            vertical += tabela[j][i]
             
     #verifica se esta em alguma dessas linhas
+    if palavra in vertical:
+        return True
+    elif palavra in horizontal: 
+        return True
+    else: 
+        return False#senao retoan false
 
 tabela = [
  ['A', 'T', 'O', 'L', 'E', 'P', 'S', 'J'],
